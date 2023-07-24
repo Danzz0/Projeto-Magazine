@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,html {
+            height: 100%;
+        }
+
+        .img2, .img3 {
+            /* The image used */
+            position: relative;
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .img2{
+            background-image: url('imgs/fundo3.jpg');
+            min-height: 100%;
+        }
+
+        .img3{
+            background-image: url('imgs/fundo4.jpg');
+            min-height: 100%;
+        }
+
+        /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+    </style>
+</head>
+
+<body>
+
+    <p>In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop
+        screens sizes.</p>
+    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+    <div class="img2"></div>
+
+    <div style="height:1000px;background-color:red;font-size:36px">
+        This div is just here to enable scrolling.
+        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+
+    <div class="img3"></div>
+  
+
+
+
+    
+
+</body>
+
+</html>
